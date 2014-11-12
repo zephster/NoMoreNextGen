@@ -31,10 +31,14 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bNext-Gen\b/g, "Current-Gen");
+	v = v.replace(/\bNext-gen\b/g, "Current-gen");
+	v = v.replace(/\bnext-Gen\b/g, "current-Gen");
+	v = v.replace(/\bnext-gen\b/g, "current-gen");
+	v = v.replace(/\bNext Gen\b/g, "Current Gen");
+	v = v.replace(/\bNext gen\b/g, "Current Gen");
+	v = v.replace(/\bnext Gen\b/g, "Current Gen");
+	v = v.replace(/\bnext gen\b/g, "current gen");
 	
 	textNode.nodeValue = v;
 }

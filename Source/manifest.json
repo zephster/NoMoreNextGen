@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "No More Next-Gen",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Next-Gen consoles have been released. That makes them Current-Gen, for fucks sake.",
 	"content_scripts": 
 	[
 		{
